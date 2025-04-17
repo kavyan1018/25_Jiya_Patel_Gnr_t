@@ -1,0 +1,47 @@
+what is if else ?
+--> If-else is a conditional statement used in programming to execute different blocks of code based on whether a specified condition is true or false.
+
+
+syntax :
+
+    if(condition)
+    {
+        // code to be executed if condition is true
+    }
+    else
+    {
+        // code to be executed if condition is false
+    }
+
+
+nested if-else :
+
+    if(condition1)
+    {
+        // code to be executed if condition1 is true
+    }
+    else if(condition2)
+    {
+        // code to be executed if condition2 is true
+    }
+    else
+    {
+        // code to be executed if both conditions are false
+    }
+
+
+
+nested if :
+
+    if(condition1)
+    {
+        // code to be executed if condition1 is true
+        if(condition2)
+        {
+            // code to be executed if condition2 is also true
+        }
+    }
+    else
+    {
+        // code to be executed if condition1 is false
+    }
