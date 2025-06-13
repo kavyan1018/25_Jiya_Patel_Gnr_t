@@ -1,0 +1,23 @@
+what is Function in c ?
+--> in c programming, a function is a block of code that performs a specific task. It can take inputs (arguments), process them, and return an output (result). Functions help in organizing code, making it reusable and easier to read.
+
+
+data_type function_name();
+void main()
+{
+    // Example of a simple function in C
+    int result = add(5, 10);
+    printf("The sum is: %d\n", result);
+}
+
+data_type function_name()
+{
+    // Perform some operations
+}
+
+
+types of functions in C:
+    1. NR - NA -> No Return, No Arguments
+    2. NR - WA -> No Return, With Arguments
+    3. WR - NA -> With Return, No Arguments
+    4. WR - WA -> With Return, With Arguments
